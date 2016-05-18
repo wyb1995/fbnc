@@ -5,7 +5,7 @@ function fibonacci_series(n) {
     fbnc[0] = 0;
     fbnc[1] = 1;
     var num = 2;
-    while(num<n){
+    while(num<=n){
         fbnc[num] = fbnc[num-1]+fbnc[num-2];
         num++;
     }
